@@ -11,3 +11,9 @@ for (var i = 0; i < listaEmail.length; i++) {
   }
 }
 console.log(emailVerificata);
+// Stampare messaggio in base alla condizione data
+if (emailVerificata == true) {
+  console.log("Email esatta puoi effettuare l'accesso!");
+} else {
+  console.log("Non hai inserito l'email correttamente!");
+}
